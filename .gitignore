@@ -10,6 +10,8 @@ node_modules/
 .env.test
 
 # Related documents
+.Exercises.docx
+.Preparation.docx
 .docx
 .doc
 .pdf

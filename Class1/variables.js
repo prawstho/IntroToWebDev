@@ -1,10 +1,10 @@
 // var, let, const
 
-// variables can be reassigned
-var fullName = 'Jack Nimble';
-console.log(fullName);
-fullName = 'Jill Spill';
-console.log(fullName);
+// // variables can be reassigned
+// var fullName = 'Jack Nimble';
+// console.log(fullName);
+// fullName = 'Jill Spill';
+// console.log(fullName);
 
 // // variables can be initialized
 // var message;
@@ -21,7 +21,8 @@ console.log(fullName);
 // console.log(first_name);
 
 // // LET
-// let fullName = "Sue Storm";
+// let fullName;
+// fullName = "Sue Storm";
 // console.log(fullName);
 // // fullname = "Johnny Storm";
 // fullName = "Johnny Storm";
@@ -31,9 +32,11 @@ console.log(fullName);
 // const lastName = "Storm";
 // console.log(lastName);
 // // constants cannot be re-assigned.
-// lastName = "Smith";
+// // lastName = "Smith";
 // // it must have a value
-// const message;
+// const message  = "the message";
+// console.log(message);
+
 
 // const person = {
 //   firstName: 'Marcus',
@@ -46,9 +49,11 @@ console.log(fullName);
 // person.age = 34;
 // console.log(person);
 
-// const numbers = [1,2,3,4,5];
-// numbers.push(6);
-// numbers = [4,5,6,7,8]; // constants cannot be re-assigned.
+// console.log(person.lastName);
 
-// console.log(numbers);
+const numbers = [1,2,3,4,5];
+numbers.push(6);
+numbers = [4,5,6,7,8]; // constants cannot be re-assigned.
+
+console.log(numbers);
 

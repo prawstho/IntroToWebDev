@@ -2,7 +2,7 @@ const firstName = 'Danny';
 const lastName = 'Williams';
 const age = 73;
 const str = 'the fat cat sat on the mat';
-const tags = 'spicy,red hot,mild,needs chaser';
+const tags = 'spicy,red hot;mild,needs chaser';
 
 let val;
 val = firstName + lastName;
@@ -30,28 +30,28 @@ val = firstName.toLowerCase();
 val = firstName.toUpperCase();
 
 // strings as arrays
-val = firstName[2];
+val = firstName[4];
 
 // indexOf()
-val = firstName.indexOf('l');
-val = firstName.lastIndexOf('l');
+val = lastName.indexOf('l');
+val = lastName.lastIndexOf('l');
 
 // charAt()
-val = firstName.charAt(3);
+val = firstName.charAt(1);
 val = firstName.charAt(firstName.length - 1);
 
-// slice()
-val = firstName.slice(0,3);
+// slice() Danny
+val = firstName.slice(1,3);
 val = firstName.slice(-2);
 
 // split()
 val = str.split(' ');
-val = tags.split(',');
+val = tags.split('i');
 
 // replace()
 val = str.replace('cat', 'bat');
 
 // includes()
-val = str.includes('nat');
+val = str.includes('mat');
 
 console.log(val);

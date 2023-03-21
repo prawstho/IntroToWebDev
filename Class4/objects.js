@@ -1,4 +1,25 @@
 // Object Literals
+const person = {
+  first: 'bob',
+  last: 'bobson',
+  birthyear: '1987',
+  address: {
+    street: '123 Water St.',
+    city: 'St. Johns',
+    province: 'NL',
+    postal: 'A1F6J7',
+    country: 'CANADA'
+  },
+  hobbies: ['music', 'fishing', 'shed life', 'quad'],
+  getAge: function(){
+    const today = new Date();
+    return today.getFullYear() - this.birthyear;
+  }
+};
+let peeps;
+peeps = person.getAge();
+console.log(peeps);
+
 const boat = {
   name: 'Irish Stew',
   type: 'sail',
@@ -20,7 +41,7 @@ const boat = {
     berth: {
       dock: 'F',
       mooring: 12
-    },
+    }
   },
   getAge: function(){
     const today = new Date();
@@ -31,11 +52,11 @@ const boat = {
 let val;
 val = boat.name;
 val = boat.sails[4];
-// val = boat.moorage;
-// val = boat.moorage.berth.mooring;
-// val = boat.getAge();
+val = boat.moorage;
+val = boat.moorage.berth.mooring;
+val = boat.getAge();
 
-console.log(val);
+// console.log(val);
 
 const crew = [
   { name: 'Joseph', age: 46, experience: 12 },
@@ -44,9 +65,9 @@ const crew = [
   { name: 'Satnam', age: 41, experience: 5 }
 ];
 
-let accumulated = 0;
-for (let i = 0; i < crew.length; i++) {
-  console.log(crew[i].name);
-  accumulated += crew[i].experience;
-}
-console.log(accumulated + ' years of total experience.')
+// let accumulated = 0;
+// for (let i = 0; i < crew.length; i++) {
+//   console.log(crew[i].name);
+//   accumulated += crew[i].experience;
+// }
+// console.log(accumulated + ' years of total experience.')

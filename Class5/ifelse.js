@@ -5,60 +5,60 @@
 // }
 
 // id is now set to 100
-const id = 100;
+const id = '100';
 const firstName = "Matt";
 // EQUAL TO ==
-if(id == 100) {
-  console.log('if == is CORRECT.');
-}else{
-  console.log('if == is INCORRECT.');
-};
+// if(id == 100) {
+//   console.log('if == is CORRECT.');
+// }else{
+//   console.log('if == is INCORRECT.');
+// };
 
-if(firstName == "Matt") {
-  console.log(`Yes, the person is ${firstName}.`)
-}else{
-  console.log(`The person first name is unknown.`)
-}
+// if(firstName == "Matthew") {
+//   console.log(`Yes, the person is ${firstName}.`)
+// }else{
+//   console.log(`The person first name is unknown.`)
+// }
 
-// NOT !!!!
+// // NOT !!!!
 
-// NOT EQUAL TO !=
-if(id != 100) {
-  console.log('if != is CORRECT.');
-}else{
-  console.log('if != is INCORRECT.');
-};
+// // NOT EQUAL TO !=
+// if(id != 100) {
+//   console.log('if != is CORRECT.');
+// }else{
+//   console.log('if != is INCORRECT.');
+// };
 
-// EQUAL, EQUAL, and EQUAL
-// =, ==, AND ===
+// // EQUAL, EQUAL, and EQUAL
+// // =, ==, AND ===
 
-// EQUAL TO VALUE AND DATA TYPE ===
-if(id === 100) {
-  console.log('if === is CORRECT.');
-}else{
-  console.log('if === is INCORRECT.');
-};
+// // EQUAL TO VALUE AND DATA TYPE ===
+// if(id === 100) {
+//   console.log('if === is CORRECT.');
+// }else{
+//   console.log('if === is INCORRECT.');
+// };
 
-// NOT EQUAL, and NOT EQUAL
-// !=, AND !==
+// // NOT EQUAL, and NOT EQUAL
+// // !=, AND !==
 
-// NOT EQUAL TO VALUE AND DATA TYPE ===
-if(id !== '100') {
-  console.log('if !== is CORRECT.');
-}else{
-  console.log('if !== is INCORRECT.');
-};
+// // NOT EQUAL TO VALUE AND DATA TYPE ===
+// if(id !== '101') {
+//   console.log('if !== is CORRECT.');
+// }else{
+//   console.log('if !== is INCORRECT.');
+// };
 
-const field = 10;
-if(field) {
+// const field = 10;
+// //if(field) {
 // if(typeof field !== 'undefined') {
-  console.log(`the field is ${field}.`)
-}else{
-  console.log(`the field is 'undefined'.`)
-}
+//   console.log(`the field is ${field}.`)
+// }else{
+//   console.log(`the field is 'undefined'.`)
+// }
 
 // ELSE IF
-const instrument = 'bass';
+const instrument = 'ukelele';
 if(instrument === 'guitar'){
   console.log(`The instrument is a ${instrument}.`);
 } else if(instrument === 'ukelele'){
@@ -69,7 +69,7 @@ if(instrument === 'guitar'){
   console.log(`The ${instrument} is NOT known to me.`)
 }
 
-// LOGICAL OPERATORS
+// // LOGICAL OPERATORS
 
 const teacher = {
   name: 'Peter',
@@ -85,12 +85,13 @@ if(teacher.age >= 50 && teacher.education == 'Masters'){
 const auto = {
   make: 'Ford',
   model: 'Bronco',
-  year: 2015
+  year: 2023,
+  color: 'Green'
 };
 
 // AND &&
-if(auto.year >= 2022 && auto.year <= 2023){
-  console.log(`${auto.make} ${auto.model} is new.`)
+if(auto.year >= 2022 && auto.year <= 2023 && auto.make === 'Ford'){
+  console.log(`${auto.make} ${auto.model} is new and a Ford.`)
 } else if(auto.year >= 2010 && auto.year <= 2021) {
   console.log(`${auto.make} ${auto.model} is used.`)
 } else {
@@ -100,7 +101,7 @@ if(auto.year >= 2022 && auto.year <= 2023){
 // OR ||
 const student = {
   name: 'Gerome',
-  age: 47
+  age: 45
 };
 
 if(student.age < 6 || student.age > 64){

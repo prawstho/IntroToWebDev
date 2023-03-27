@@ -5,32 +5,35 @@ const instruments = ['piano','flute','guitar','tenor banjo','ugly stick'];
 const assorted = ['string',54,false,{a:2,b:3},null,undefined,new Date()];
 const sentence = 'the fat cat sat on the mat.'
 
-// FOR
-for(let i = 0; i < integers.length; i++) {
-  console.log(`Integer ${integers[i]}.`)
-};
+// // FOR
+// for(let i = 0; i < integers.length; i++) {
+//   console.log(`Integer ${integers[i]}.`)
+// };
 
 // for(let i = 0; i < instruments.length; i++) {
 //   console.log(`Instrument: ${integers[i]}.`)
 // };
 
-// FOREACH
+// // FOREACH
+// instruments.forEach(function(instrument) {
+//   console.log(`instrument is ${instrument}.`);
+// });
 
 // instruments.forEach(function(instrument, index) {
-//   console.log(`instrument is ${instrument} witn an index of ${index}.`);
+//   console.log(`instrument is ${instrument} with an index of ${index}.`);
 // });
 
 // assorted.forEach(item => {
 //   console.log(item);
 // });
 
-// const octaves = [
-//   {id: 10, instrument: 'Tenor Banjo', keyOctave: 'G2'},
-//   {id: 20, instrument: 'Guitar', keyOctave: 'E2'},
-//   {id: 30, instrument: 'Bass Guitar', keyOctave: 'E1'},
-//   {id: 40, instrument: 'Mandolin', keyOctave: 'G2'},
-//   {id: 50, instrument: 'Ukulele', keyOctave: 'G4'}
-// ];
+const octaves = [
+  {id: 10, instrument: 'Tenor Banjo', keyOctave: 'G2'},
+  {id: 20, instrument: 'Guitar', keyOctave: 'E2'},
+  {id: 30, instrument: 'Bass Guitar', keyOctave: 'E1'},
+  {id: 40, instrument: 'Mandolin', keyOctave: 'G2'},
+  {id: 50, instrument: 'Ukulele', keyOctave: 'G4'}
+];
 
 // octaves.forEach(octave => {
 //   console.log(`${octave.instrument} is often tuned in ${octave.keyOctave}.`)

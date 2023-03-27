@@ -1,0 +1,22 @@
+[
+  {
+    "fname": "Kim",
+    "lname": "Kimberson",
+    "gender": "undisclosed"
+  },
+  {
+    "fname": "Bob",
+    "lname": "Robson",
+    "gender": "male"
+  },
+  {
+    "fname": "Sue",
+    "lname": "Susanson",
+    "gender": "female"
+  },
+  {
+    "fname": "Leslie",
+    "lname": "Leslison",
+    "gender": "non-binary"
+  }
+]

@@ -48,6 +48,13 @@ const meetings = {
   count: 0,
   hours: 0,
   topic: 'scrum',
+  getCount(){
+    return this.count;
+  },
+  setCount(cnt){
+    if(cnt < 5)
+      this.count = cnt;
+  },
   addOne: function(){
     this.count++;
   },
@@ -55,6 +62,11 @@ const meetings = {
     this.hours += hrs;
   }
 };
+meeting.count = 33;
+meeting.setCount(33);
+if(meeting.getCount > 30)
+  console.log('too many meetings');
+
 meetings.addOne();
 meetings.addOne();
 meetings.bookTime(6);

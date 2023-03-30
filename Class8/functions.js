@@ -8,18 +8,18 @@ const people = [
   {name: 'Bob', age: 18, isStudent: true}
 ];
 
-people.forEach( person => {
-  console.log(`Welcome ${person.name}.`)
-})
+// people.forEach( person => {
+//   console.log(`Welcome ${person.name} status is ${person.isStudent}.`)
+// })
 
 people.forEach( person => {
   console.log(`${person.name} is a ${maturity(person.age)}.`)
 })
 
-function maturity(age) {
-  if(age <= 12) return 'child'
-  else if(age > 12 && age <= 19) return 'teenager'
-  else if(age > 19 && age <= 65) return 'adult'
+function maturity(beer) {
+  if(beer <= 12) return 'child'
+  else if(beer > 12 && beer <= 19) return 'teenager'
+  else if(beer > 19 && beer <= 65) return 'adult'
   else return 'retiree'
 }
 

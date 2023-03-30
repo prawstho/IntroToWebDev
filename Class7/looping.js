@@ -1,8 +1,8 @@
 // FOR LOOP
 
-for(let i = 18; i < 27; i++) {
-  console.log(`Number ${i}.`)
-};
+// for(let i = 18; i < 27; i++) {
+//   console.log(`Number ${i}.`)
+// };
 
 // for(let i = 18; i < 27; i++) {
 //   if(i === 22) {
@@ -18,15 +18,15 @@ for(let i = 18; i < 27; i++) {
 
 // // WHILE LOOP
 // let i = 50;
-// while(i < 60){
+// while(i < 51){
 //   console.log(`WHILE number is ${i}`);
 //   i++;
 // }
 
-// // DO WHILE LOOP
-// let i = 50;
-// do {
-//   console.log(`DO WHILE number is ${i}`);
-//   i++;
-// }
-// while(i < 60);
+// DO WHILE LOOP
+let i = 50;
+do {
+  console.log(`DO WHILE number is ${i}`);
+  i++;
+}
+while(i < 50);

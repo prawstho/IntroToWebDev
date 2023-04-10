@@ -1,22 +1,22 @@
 // const instrument = 'harp';
 
-// switch(instrument){
-//   case 'mandolin':
-//     console.log(`play - Iris.`);
-//     break;
-//   case 'guitar':
-//     console.log(`play - All along the watchtower.`);
-//     break;
-//   case 'ukelele': 
-//     console.log(`play - Riptide.`);
-//     console.log('has four strings')
-//     break;
-//   case 'banjo':
-//     console.log(`play - Powerless.`);
-//     break;
-//   default:
-//     console.log(`play what you want.`);   
-// }
+switch(instrument){
+  case 'mandolin':
+    console.log(`play - Iris.`);
+    break;
+  case 'guitar':
+    console.log(`play - All along the watchtower.`);
+    break;
+  case 'ukelele': 
+    console.log(`play - Riptide.`);
+    console.log('has four strings')
+    break;
+  case 'banjo':
+    console.log(`play - Powerless.`);
+    break;
+  default:
+    console.log(`play what you want.`);   
+}
 
 // let day;
 // switch(new Date().getDay()){

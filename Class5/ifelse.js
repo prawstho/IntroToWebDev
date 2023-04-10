@@ -8,11 +8,11 @@
 const id = '100';
 const firstName = "Matt";
 // EQUAL TO ==
-// if(id == 100) {
-//   console.log('if == is CORRECT.');
-// }else{
-//   console.log('if == is INCORRECT.');
-// };
+if(id == 100) {
+  console.log('if == is CORRECT.');
+}else{
+  console.log('if == is INCORRECT.');
+};
 
 // if(firstName == "Matthew") {
 //   console.log(`Yes, the person is ${firstName}.`)

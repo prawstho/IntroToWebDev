@@ -1,22 +1,37 @@
 [
   {
+    "fname": "Tim",
+    "lname": "Timberson",
+    "gender": "male",
+    "birthday": "28/12/1998",
+    "status": "married"
+  },
+  {
     "fname": "Kim",
     "lname": "Kimberson",
-    "gender": "undisclosed"
+    "gender": "undisclosed",
+    "birthday": "undisclosed",
+    "status": "undisclosed"
   },
   {
     "fname": "Bob",
     "lname": "Robson",
-    "gender": "male"
+    "gender": "male",
+    "birthday": "11/10/2002",
+    "status": "single"
   },
   {
     "fname": "Sue",
     "lname": "Susanson",
-    "gender": "female"
+    "gender": "non-binary",
+    "birthday": "18/6/1995",
+    "status": "married"
   },
   {
     "fname": "Leslie",
     "lname": "Leslison",
-    "gender": "non-binary"
+    "gender": "female",
+    "birthday": "9/3/1973",
+    "status": "widowed"
   }
 ]
